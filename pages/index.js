@@ -1,8 +1,8 @@
 export default function Home({data}) {
   return (
     <div>
-      <h className='text-xl'>Welcome to my homepage</h>
-      <p className='text-base'>This is for TEST</p>
+      <h className='text-7xl font-bold underline'>Welcome to my homepage</h>
+      <p className='text-5xl'>This is for TEST</p>
     </div>
   )
 }

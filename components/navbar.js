@@ -6,19 +6,17 @@ const linkStyle = {
 
 const Navbar = () => {
     return (
-        <nav>
-            <ul>
+        <>
                 <Link href='/'><button className='font-bold bg-red-200'>Home</button></Link>
                 &emsp;
                 <Link href='/about'><button className='font-bold bg-blue-300'>About</button></Link>
                 &emsp;
                 <Link href='/blog'><button className='font-bold bg-green-400'>Blog</button></Link>
                 &emsp;
-                <Link href='/post/1'><button className='font-bold bg-orange-200'>Post</button></Link>
+                <Link href='/posts/5'><button className='font-bold bg-orange-200'>Post</button></Link>
                 &emsp;
                 <Link href='/readmore'><button className='font-bold'>Readmore</button></Link>           
-            </ul>
-        </nav>
+        </>
     )
   }
   
